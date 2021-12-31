@@ -1,8 +1,8 @@
-# { name } resume
+# ryosuke imai resume
 
 ## Sample
 
-https://github.com/kawamataryo/resume
+https://github.com/ryosuke-imai/resume
 
 ## Features
 
