@@ -56,7 +56,7 @@
 |資格名|取得年|
 |---|---|
 |基本情報技術|2003 年|
-|G 検定|2018 年|
+|JDLA Deep Learning For GENERAL|2018 年|
 |IoTシステム技術検定中級|2018 年|
 |統計検定 3 級|2019 年|
 |Azure AZ-900：Microsoft Azure Fundamentals |2019 年|
