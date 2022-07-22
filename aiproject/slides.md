@@ -1,7 +1,8 @@
 ---
 # try also 'default' to start simple
 #theme: seriph
-theme: apple-basic
+#theme: apple-basic
+theme: bricks
 
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
@@ -23,10 +24,11 @@ drawings:
   persist: false
 ---
 
-# Welcome to Slidev
+# AI外観検査製品をつくってみて
 
 
-Presentation slides for developers
+### パッケージアーキテクト部
+### 今井亮介
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -35,9 +37,7 @@ Presentation slides for developers
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
+  <div>Powerd by slidev</div>
   <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
@@ -50,11 +50,111 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
+# アジェンダ
+
+- 自己紹介
+- どんな製品を作っていたか
+- 開発秘話
+- 具体的な案件例
+- 何がしんどかったか
+- 今後活用できそうな技術
+
+---
+
+# 自己紹介
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
+<br>
+<br>
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+<img src="/issue.png">
+</div>
+<div>
+氏名：今井亮介<br><br>
+2022年5月16日入社<br><br>
+パッケージアーキテクト部配属<br><br>
+</div>
+</div>
+
+---
+layout: image-right
+image: https://products.sint.co.jp/hs-fs/hubfs/images/asprova/TOP/top-3.jpg?width=487&height=579&name=top-3.jpg
+---
+
+# どんな製品を作っていたか
+
+
+- EC WebShopping
+- AI 外観検査サービス ([AISIA-AD](https://products.sint.co.jp/aisia-ad))
+  - [サービス動画](https://www.youtube.com/watch?v=TZKm4M03GG0)
+  - [検査の流れ動画](https://youtu.be/GKfHoHXxWsI)
+
+
+---
+
+# 開発秘話（裏話 社外秘？）
+
+<v-clicks>
+
+- 悪夢のはじまり（2017年年始）
+- 展示会出展 (2017年10月)
+  - 第1回 AI・業務自動化 展【秋】2017年11月8日(水)～2017年11月10日(金)
+  - 第1回 AI・業務自動化 展【春】Japan IT Week 春 2018 2018年5月9日〜11日
+  - ＡＩ・業務自動化 展【秋】 2018年10月24日〜26日
+  - IoT Technology 2018／IoT総合技術展  2018年11月14日〜16日
+  - 第8回 IoT/M2M展【春】 2019年4月10日～12日
+  - 第28回 Japan IT Week 【春】 後期 2019年5月8日～10日
+  - Japan IT Week 【秋】 AI・業務自動化展 2019年10月23日（水）～25日（金）
+  - [国際画像機器展2019 2019年12月4日～6日](https://products.sint.co.jp/aisia-ad/seminar/ite)
+  - ・・・（コロナ渦でオンラインに移行年2～3ペース）
+- 標準製品と案件のはざまで（後述）
+- 事業戦略とライバル会社たちの行方（後述）
+
+</v-clicks>
+
+---
+
+# 具体的な案件例
+
+- 外観検査における画像AI技術の基本の形
+  - 物体検知、画像認識
+
+---
+
+# 何がしんどかったか
+
+
+---
+
+# 今後活用できそうな技術
+
+- AI
+- データサイエンス（本質は物事の定量的可視化）
+- デジタルツイン（IoTを軸とした可視化）
+
+つまりは、今まで物理的に負荷がかかっていたことを容易にする技術
+
+キーワード：AI, IoT, メタバース, 
+
+---
+
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
+-  **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
 - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
 - 🤹 **Interactive** - embedding Vue components to enhance your expressions

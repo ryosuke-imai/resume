@@ -161,6 +161,7 @@
 |JDLA Deep Learning For GENERAL 2017|2017.12|
 |MCPC IoTシステム技術検定中級|2018.07|
 |Azure AZ-900：Microsoft Azure Fundamentals |2019.08|
+|Azure AI-900：Microsoft Azure AI Fundamentals |2022.07|
 |Python 3 エンジニア認定基礎試験|2019.08|
 |Python 3 エンジニア認定データ分析試験|2019.09|
 |統計検定 3 級|2020.02|
